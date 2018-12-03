@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity implements
     RecyclerView mRestaurantsRecycler;
 
     @BindView(R.id.view_empty)
-    ViewGroup mEmptyView;;
+    ViewGroup mEmptyView;
 
     private FirebaseFirestore mFirestore;
     private Query mQuery;
